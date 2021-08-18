@@ -1,0 +1,50 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.caracteristicas.co/wp-content/uploads/2017/03/sistema-solar-e1564771413564.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+
+h1{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+thead{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+
+tfoot{
+    text-align: center;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .item {
+    margin:10px;
+    padding: 10px;
+    width: 150px
+  }
+
+  .item:hover{
+      background-color:#fff;
+      color: red;
+      font-size: 20px;
+  }
